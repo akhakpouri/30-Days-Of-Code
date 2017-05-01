@@ -5,8 +5,10 @@ namespace HelloWorld
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        {            
+            var inputString = Console.ReadLine();
+            Console.WriteLine("Hello, World.");
+            Console.WriteLine(inputString);
         }
     }
 }
