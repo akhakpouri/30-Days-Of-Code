@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HelloWorld
+namespace ThirtyDaysOfCode.HelloWorld
 {
     class Program
     {
