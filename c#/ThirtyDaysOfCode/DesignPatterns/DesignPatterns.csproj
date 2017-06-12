@@ -50,6 +50,18 @@
     <Compile Include="Models\Abstract\Lion.cs" />
     <Compile Include="Models\Abstract\Wildebeest.cs" />
     <Compile Include="Models\Abstract\Wolf.cs" />
+    <Compile Include="Models\Factory\BibliographyPage.cs" />
+    <Compile Include="Models\Factory\ConclusionPage.cs" />
+    <Compile Include="Models\Factory\Document.cs" />
+    <Compile Include="Models\Factory\EducationPage.cs" />
+    <Compile Include="Models\Factory\ExperiencePage.cs" />
+    <Compile Include="Models\Factory\IntroductionPage.cs" />
+    <Compile Include="Models\Factory\Page.cs" />
+    <Compile Include="Models\Factory\Report.cs" />
+    <Compile Include="Models\Factory\ResultPage.cs" />
+    <Compile Include="Models\Factory\Resume.cs" />
+    <Compile Include="Models\Factory\SkillsPage.cs" />
+    <Compile Include="Models\Factory\SummaryPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
