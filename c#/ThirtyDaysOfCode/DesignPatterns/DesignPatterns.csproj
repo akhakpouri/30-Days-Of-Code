@@ -50,6 +50,10 @@
     <Compile Include="Models\Abstract\Lion.cs" />
     <Compile Include="Models\Abstract\Wildebeest.cs" />
     <Compile Include="Models\Abstract\Wolf.cs" />
+    <Compile Include="Models\DI\CI\Client.cs" />
+    <Compile Include="Models\DI\IService.cs" />
+    <Compile Include="Models\DI\PI\Client.cs" />
+    <Compile Include="Models\DI\Service.cs" />
     <Compile Include="Models\Factory\BibliographyPage.cs" />
     <Compile Include="Models\Factory\ConclusionPage.cs" />
     <Compile Include="Models\Factory\Document.cs" />

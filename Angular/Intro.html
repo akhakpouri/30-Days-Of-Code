@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <script src="/javascript/node_modules/angular/angular.min.js"></script>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body data-ng-app="">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Angular</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Intro</a></li>
+                <li><a href="#">Simple</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="jumbotron"> 
+        <h1>Getting started</h1> 
+        <p>An overview of Bootstrap, how to download and use, basic templates and examples, and more.</p>         
+    </div> 
+    
+    <p class="bd-lead">
+        Get started with Bootstrap, the world's most popular framework for building responsive, mobile-first sites, with the Bootstrap
+        CDN and a template starter page.
+    </p>
+    <h2>AbgularJS Directives</h2>
+    <figure class="highlight">
+        <p>
+            As you have alreadt seen, AngularJS directives are HTML attributes with an <strong>ng</strong> prefix. <br/>            The <strong>ng-init</strong> directive initializes AngularJS application variables.
+        </p>
+        <div data-ng-init="firstName='Ali'">
+            <p>
+                The name is <span data-ng-bind="firstName"></span>
+            </p>
+        </div>
+    </figure>
+</body>
+
+</html>
