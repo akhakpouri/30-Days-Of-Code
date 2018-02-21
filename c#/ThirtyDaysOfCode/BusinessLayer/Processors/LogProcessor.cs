@@ -15,10 +15,6 @@ namespace ThirtyDaysOfCode.BusinessLayer.Processors
 
         private LogProcessor()
         {
-            if(logger == null)
-            {
-
-            }
         }
 
         public static LogProcessor Instance
@@ -26,11 +22,7 @@ namespace ThirtyDaysOfCode.BusinessLayer.Processors
             get
             {
                 if (instance != null) return instance;
-                lock (syncRoot)
-                {
-                    if (instance == null)
-                        instance = new LogProcessor();
-                }
+                instance = new LogProcessor();
                 return instance;
             }
         }
