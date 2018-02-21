@@ -1,6 +1,5 @@
-﻿using System;
-using DesignPatterns.Models.DI;
-using DesignPatterns.Models.DI.CI;
+﻿using DesignPatterns.Models.DependencyInjection;
+using DesignPatterns.Models.DependencyInjection.ConstructorInjection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DesignPatternsTest
@@ -18,7 +17,7 @@ namespace DesignPatternsTest
         [TestMethod]
         public void PropertyTest()
         {
-            var client = new DesignPatterns.Models.DI.PI.Client()
+            var client = new DesignPatterns.Models.DependencyInjection.ParameterInjection.Client()
             {
                 Service = new Service()
             };

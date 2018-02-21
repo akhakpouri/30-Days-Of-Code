@@ -8,13 +8,18 @@ namespace DesignPatterns.Models.Factory
 {
     public class Report : Document
     {
-        public override void CreatePages()
+        protected override void CreatePages()
         {
             Pages.Add(new IntroductionPage());
             Pages.Add(new ResultPage());
             Pages.Add(new ConclusionPage());
             Pages.Add(new SummaryPage());
             Pages.Add(new BibliographyPage());
+        }
+
+        internal override void ChangeThis()
+        {
+            Console.WriteLine("This is changed in the Reports");
         }
     }
 }

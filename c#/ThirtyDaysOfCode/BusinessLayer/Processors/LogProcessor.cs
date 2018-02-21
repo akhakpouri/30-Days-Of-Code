@@ -25,13 +25,11 @@ namespace ThirtyDaysOfCode.BusinessLayer.Processors
         {
             get
             {
-                if (instance == null)
+                if (instance != null) return instance;
+                lock (syncRoot)
                 {
-                    lock (syncRoot)
-                    {
-                        if (instance == null)
-                            instance = new LogProcessor();
-                    }
+                    if (instance == null)
+                        instance = new LogProcessor();
                 }
                 return instance;
             }

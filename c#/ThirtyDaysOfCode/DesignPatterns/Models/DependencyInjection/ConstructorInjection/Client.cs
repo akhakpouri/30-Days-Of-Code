@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.Models.DI.CI
+namespace DesignPatterns.Models.DependencyInjection.ConstructorInjection
 {
     /// <summary>
     /// This is an example of a constructor injection
