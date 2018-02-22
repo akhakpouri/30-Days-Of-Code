@@ -6,5 +6,12 @@ namespace DesignPatterns.Factories.Abstract
     {
         public abstract Herbivore CreateHerbivore();
         public abstract Carnivore CreateCarnivore();
+
+        public string Test { get; set; }
+
+        protected virtual void Hello()
+        {
+            
+        }
     }
 }

@@ -11,6 +11,7 @@ namespace DesignPatterns.Factories.Abstract
     {
         public override Carnivore CreateCarnivore()
         {
+            Hello();
             return new Wolf();
         }
 
