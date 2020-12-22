@@ -11,7 +11,6 @@ namespace StringShift
             //string 1: amazon. string 2: azonam -- true. rotating anti-clockwise
             //string 1: amazon. string 2: onamaz -- true. rotating clockwise
             //stirng 1: amazon. string 2; zonmaz -- false.
-
             string first = "amazon";
             string second = "azonam";
             Console.WriteLine($"Rotation is: {isRotated(first, second)}");
